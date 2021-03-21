@@ -1,6 +1,172 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* variables for colors */
+:root {
+
+    --dark-green: #677423;
+    --light-green: #78882a;
+
+}
+
+/* Main layout styling*/
 * {
 
     box-sizing: border-box;
 
 }
 
+body {
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* style */
+    background-color: #f1ece2;
+
+}
+
+.main-container {
+
+    /* sizing */
+    height: 500px;
+    width: 500px;
+
+    /* positioning */
+    margin-top: 5%;
+
+}
+
+/* Header styling */
+header {
+
+    /* text */
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+    /* style */
+    border-radius: 25px;
+
+}
+
+header h1 {
+
+    /* text */
+    font-size: 50px;
+    font-weight: bold;
+
+    /* style */
+    color: var(--dark-green);
+
+    /* positioning */
+    margin-bottom: -15px;
+
+}
+
+header h2 {
+
+    /* text */
+    font-weight: lighter;
+
+    /* style */
+    color: var(--light-green);
+
+}
+
+/* Image & button container styling */
+.content {
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* positioning */
+    margin-top: 20px;
+
+}
+
+.choice {
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* positioning */
+    width: 200px;
+    padding: 20px;
+
+}
+
+/* Button styling */
+.dogs-btn {
+    
+    /* text */
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* style */
+    color: #22250e;
+
+    border-radius: 25px;
+    border: 10px solid var(--dark-green);
+    background-color: var(--light-green);
+
+}
+
+.dogs-btn:hover {
+
+    /* style */
+    border-color: #788829;
+    background-color: #9cad04;
+
+}
+
+.dogs-btn:active {
+
+    /* style */
+    border-color: #454f17;
+    background-color: #56621e;
+
+}
+
+/* Image styling */
+.dogs-img {
+
+    /* style */
+    border-radius: 25px;
+    border: 10px solid var(--dark-green);
+
+    /* positioning */
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+/* Link styling */
+a {
+
+    color: #78882a;
+    text-decoration: underline;
+
+}
+
+/* Footer styling */
+footer {
+
+    /* text */
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* style */
+    color: var(--dark-green);
+
+    /* positioning */
+    margin-top: 50px;
+
+}
