@@ -26,6 +26,10 @@ body {
     /* style */
     background-color: #f1ece2;
 
+    /* positioning */
+    height: 100%;
+    overflow-y: hidden;
+
 }
 
 .main-container {
@@ -167,6 +171,6 @@ footer {
     color: var(--dark-green);
 
     /* positioning */
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
